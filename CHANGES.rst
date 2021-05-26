@@ -9,7 +9,9 @@ Unreleased
 Version 3.0.2
 -------------
 
-Unreleased
+-   ``Undefined.__contains__`` (``in``) reverts to 2.x behaviour (returning ``False``)
+    while ``StrictUndefined.__contains__`` continues to raise ``UndefinedError``.
+    :issue:`1204`
 
 
 Version 3.0.1
